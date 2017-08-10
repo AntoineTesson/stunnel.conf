@@ -25,3 +25,12 @@ gos_web_socket:
         wamp:
             host: 127.0.0.1
             port: 8081
+
+
+Save the file and start stunnel :
+
+/etc/init.d/stunnel4 start
+
+For running stunnel automated edit properties in /etc/default/stunnel4:
+
+ENABLED=1
